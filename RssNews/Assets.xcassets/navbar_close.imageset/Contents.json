@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_sre_navbar_close.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

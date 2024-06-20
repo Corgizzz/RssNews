@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		DC8BE7F02C0FF54700D183B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE7EF2C0FF54700D183B9 /* AppDelegate.swift */; };
 		DC8BE7F22C0FF54700D183B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE7F12C0FF54700D183B9 /* SceneDelegate.swift */; };
-		DC8BE7F42C0FF54700D183B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE7F32C0FF54700D183B9 /* ViewController.swift */; };
-		DC8BE7F72C0FF54700D183B9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DC8BE7F62C0FF54700D183B9 /* Base */; };
 		DC8BE7F92C0FF54900D183B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8BE7F82C0FF54900D183B9 /* Assets.xcassets */; };
-		DC8BE7FC2C0FF54900D183B9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DC8BE7FB2C0FF54900D183B9 /* Base */; };
+		DC8BE8092C0FF62100D183B9 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE8082C0FF62100D183B9 /* NewsListViewController.swift */; };
+		DC8BE84A2C22775B00D183B9 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE8492C22775B00D183B9 /* NewsItem.swift */; };
+		DC8BE84C2C22779600D183B9 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE84B2C22779600D183B9 /* RSSParser.swift */; };
+		DC8BE84F2C227B1300D183B9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DC8BE84E2C227B1300D183B9 /* SnapKit */; };
+		DC8BE8532C227C4A00D183B9 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE8522C227C4A00D183B9 /* NewsTableViewCell.swift */; };
+		DC8BE8562C22B1FB00D183B9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE8552C22B1FB00D183B9 /* WebViewController.swift */; };
+		DC8BE8592C22CE8600D183B9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE8582C22CE8600D183B9 /* BaseViewController.swift */; };
+		DC8BE85C2C22DB2800D183B9 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BE85B2C22DB2800D183B9 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC8BE7EC2C0FF54700D183B9 /* RssNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8BE7EF2C0FF54700D183B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC8BE7F12C0FF54700D183B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC8BE7F32C0FF54700D183B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC8BE7F62C0FF54700D183B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC8BE7F82C0FF54900D183B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC8BE7FB2C0FF54900D183B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC8BE7FD2C0FF54900D183B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8BE8082C0FF62100D183B9 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		DC8BE8492C22775B00D183B9 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		DC8BE84B2C22779600D183B9 /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		DC8BE8522C227C4A00D183B9 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		DC8BE8552C22B1FB00D183B9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DC8BE8582C22CE8600D183B9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DC8BE85B2C22DB2800D183B9 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8BE84F2C227B1300D183B9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +68,81 @@
 			children = (
 				DC8BE7EF2C0FF54700D183B9 /* AppDelegate.swift */,
 				DC8BE7F12C0FF54700D183B9 /* SceneDelegate.swift */,
-				DC8BE7F32C0FF54700D183B9 /* ViewController.swift */,
-				DC8BE7F52C0FF54700D183B9 /* Main.storyboard */,
 				DC8BE7F82C0FF54900D183B9 /* Assets.xcassets */,
-				DC8BE7FA2C0FF54900D183B9 /* LaunchScreen.storyboard */,
 				DC8BE7FD2C0FF54900D183B9 /* Info.plist */,
+				DC8BE8032C0FF58600D183B9 /* View */,
+				DC8BE8062C0FF59400D183B9 /* Network */,
+				DC8BE8052C0FF59200D183B9 /* Model */,
+				DC8BE85A2C22DB1A00D183B9 /* Extensions */,
+				DC8BE8472C22771900D183B9 /* Utility */,
 			);
 			path = RssNews;
+			sourceTree = "<group>";
+		};
+		DC8BE8032C0FF58600D183B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE8582C22CE8600D183B9 /* BaseViewController.swift */,
+				DC8BE8502C227C3300D183B9 /* NewsList */,
+				DC8BE8542C22B1CD00D183B9 /* NewsDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC8BE8052C0FF59200D183B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE8492C22775B00D183B9 /* NewsItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC8BE8062C0FF59400D183B9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DC8BE8472C22771900D183B9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE84B2C22779600D183B9 /* RSSParser.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DC8BE8502C227C3300D183B9 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE8082C0FF62100D183B9 /* NewsListViewController.swift */,
+				DC8BE8512C227C3C00D183B9 /* SubView */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		DC8BE8512C227C3C00D183B9 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE8522C227C4A00D183B9 /* NewsTableViewCell.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		DC8BE8542C22B1CD00D183B9 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE8552C22B1FB00D183B9 /* WebViewController.swift */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		DC8BE85A2C22DB1A00D183B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BE85B2C22DB2800D183B9 /* String+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,9 @@
 			dependencies = (
 			);
 			name = RssNews;
+			packageProductDependencies = (
+				DC8BE84E2C227B1300D183B9 /* SnapKit */,
+			);
 			productName = RssNews;
 			productReference = DC8BE7EC2C0FF54700D183B9 /* RssNews.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,9 @@
 				Base,
 			);
 			mainGroup = DC8BE7E32C0FF54700D183B9;
+			packageReferences = (
+				DC8BE84D2C227B1300D183B9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DC8BE7ED2C0FF54700D183B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8BE7F92C0FF54900D183B9 /* Assets.xcassets in Resources */,
-				DC8BE7FC2C0FF54900D183B9 /* Base in Resources */,
-				DC8BE7F72C0FF54700D183B9 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC8BE7F42C0FF54700D183B9 /* ViewController.swift in Sources */,
+				DC8BE8092C0FF62100D183B9 /* NewsListViewController.swift in Sources */,
+				DC8BE85C2C22DB2800D183B9 /* String+.swift in Sources */,
+				DC8BE8532C227C4A00D183B9 /* NewsTableViewCell.swift in Sources */,
+				DC8BE84A2C22775B00D183B9 /* NewsItem.swift in Sources */,
 				DC8BE7F02C0FF54700D183B9 /* AppDelegate.swift in Sources */,
+				DC8BE8562C22B1FB00D183B9 /* WebViewController.swift in Sources */,
+				DC8BE8592C22CE8600D183B9 /* BaseViewController.swift in Sources */,
 				DC8BE7F22C0FF54700D183B9 /* SceneDelegate.swift in Sources */,
+				DC8BE84C2C22779600D183B9 /* RSSParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DC8BE7F52C0FF54700D183B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC8BE7F62C0FF54700D183B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DC8BE7FA2C0FF54900D183B9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC8BE7FB2C0FF54900D183B9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DC8BE7FE2C0FF54900D183B9 /* Debug */ = {
@@ -297,9 +366,9 @@
 				INFOPLIST_FILE = RssNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +376,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.corgi.RssNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +398,9 @@
 				INFOPLIST_FILE = RssNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +408,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.corgi.RssNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC8BE84D2C227B1300D183B9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC8BE84E2C227B1300D183B9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC8BE84D2C227B1300D183B9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC8BE7E42C0FF54700D183B9 /* Project object */;
 }
